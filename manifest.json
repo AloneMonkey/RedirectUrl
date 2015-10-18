@@ -3,13 +3,19 @@
     "version": "1.0.0",
     "manifest_version": 2,
     "description": "By AloneMonkey",
+    "browser_action": {
+        "default_icon": "images/icon-16.png",
+        "default_title": "Add Redirect rules.",
+        "default_popup": "redirect.html"
+    },
     "icons": {
         "16": "images/icon-16.png",
         "128": "images/icon-128.png"
     },
     "background": {
         "scripts": [
-            "scripts/background.js"
+            "scripts/background.js",
+            "scripts/rules.js"
         ]
     },
     "permissions": [
