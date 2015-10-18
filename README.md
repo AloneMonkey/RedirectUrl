@@ -1,3 +1,3 @@
 # RedirectUrl
 
-redirect utl to new url.
+redirect url to new url.
